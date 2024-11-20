@@ -12,7 +12,7 @@ const CharactersList = () => {
   
                         >
                             Remove
-                        </button>
+               https://gateway.marvel.com/v1/public/characters?ts=1&apikey=<YOURPUBLICKEY>&hash=<YOURHASH>          </button>
                     </li>
                 ))}
             </ul>
