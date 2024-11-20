@@ -31,7 +31,7 @@ const CharacterList = ({ handleCharacterSelect }) => {
 
     const fetchTotalCharacters = async (letter) => {
         try {
-            const response = await axios.get(`https://gateway.marvel.com/v1/public/characters?nameStartsWith=${letter}&limit=100&ts=1&apikey=${publicKey}&hash=${hash}`);
+            const response = await axios.get(`https://gateway.marvel.com/v1/public/characters?ts=1&apikey=<1655f2c81e8dca444e02ba3b42f0fe73>&hash=<641c4dfbe5e4af30a645d14c4f7518e2`);
             return response.data.data.total;
         } catch (error) {
             console.error('Error fetching total characters:', error);
