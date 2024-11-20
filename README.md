@@ -1,4 +1,4 @@
-# m
+# Module 11 Lesson 3: Assignments | Component Lifecycle Events and Forms
 //Task 2: Fetch and Display Characters
 Create a functional component CharacterList to display a list of Marvel Comics characters.
 Use the useEffect hook to fetch character data from the Marvel Comics API endpoint https://gateway.marvel.com/v1/public/characters?ts=1&apikey=<YOURPUBLICKEY>&hash=<YOURHASH> using Axios.
